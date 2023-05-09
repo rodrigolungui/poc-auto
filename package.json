@@ -1,0 +1,30 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "0.0.0",
+  "description": "auto poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initialize": "lerna bootstrap && yarn run build",
+    "build": "lerna run build --sort"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigolungui/poc-auto.git"
+  },
+  "author": "Rodrigo Lungui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigolungui/poc-auto/issues"
+  },
+  "homepage": "https://github.com/rodrigolungui/poc-auto#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
