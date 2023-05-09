@@ -1,6 +1,6 @@
 {
   "name": "@rodrigolungui/components",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "npm run clean",
@@ -16,22 +16,22 @@
     "@babel/core": "^7.15.0",
     "@babel/plugin-syntax-jsx": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
+    "@rodrigolungui/tokens": "^0.1.0",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-links": "^6.4.9",
     "@storybook/react": "^6.4.9",
     "@types/react": "^18.2.6",
     "babel-loader": "^8.2.2",
-    "@rodrigolungui/tokens": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
+    "@rodrigolungui/tokens": "*",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "@rodrigolungui/tokens": "*"
+    "react-dom": "^17.0.2"
   },
   "repository": "bguillen-tcs/auto-poc",
   "files": [
