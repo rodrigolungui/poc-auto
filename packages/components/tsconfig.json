@@ -1,7 +1,8 @@
 {
   "exclude": [
     "storybook-static/**/*",
-    "src/**/*.stories.tsx"
+    "src/**/*.stories.tsx",
+    "./dist"
   ],
   "compilerOptions": {
     "jsx": "react",
