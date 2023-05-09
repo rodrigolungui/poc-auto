@@ -41,3 +41,4 @@ jobs:
         run: |
           yarn
           yarn initialize
+          yarn release
