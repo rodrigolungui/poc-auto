@@ -28,5 +28,11 @@
     "packages": [
       "packages/**"
     ]
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "released"
+    ]
   }
 }
