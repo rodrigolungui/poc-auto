@@ -6,6 +6,10 @@
   "author": "Rodrigo Lungui",
   "license": "MIT",
   "files": [
-    "index.js"
-  ]
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist/",
+    "build": "mkdir dist && cp index.js ./dist"
+  }
 }

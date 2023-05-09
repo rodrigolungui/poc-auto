@@ -1,3 +1,5 @@
+import "@rodrigolungui/tokens/dist/tokens.css";
+
 import { Box } from "./box/Box";
 import { Button } from "./button/Button";
 import { Header } from "./header/Header";

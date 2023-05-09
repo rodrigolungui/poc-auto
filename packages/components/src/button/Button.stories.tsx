@@ -1,5 +1,6 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
+import tokens from "@rodrigolungui/tokens";
 
 import { Button } from "./Button";
 
@@ -37,5 +38,12 @@ Large.args = {
 export const Small = Template.bind({});
 Small.args = {
   size: "small",
+  label: "Button",
+};
+
+export const CustomBG = Template.bind({});
+CustomBG.args = {
+  primary: true,
+  backgroundColor: tokens.color.background.secondary,
   label: "Button",
 };

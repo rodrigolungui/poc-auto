@@ -1,0 +1,15 @@
+{
+  "name": "@rodrigolungui/tokens",
+  "version": "0.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rodrigo Lungui",
+  "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist/",
+    "build": "mkdir dist && cp tokens.css index.js ./dist"
+  }
+}
