@@ -5,7 +5,8 @@
   "description": "auto poc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "auto shipit",
+    "bootstrap": "lerna bootstrap",
     "initialize": "lerna bootstrap && yarn run build",
     "build": "lerna run build --sort"
   },
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/rodrigolungui/poc-auto#readme",
   "devDependencies": {
+    "auto": "^10.46.0",
     "lerna": "^4.0.0"
   },
   "workspaces": {
