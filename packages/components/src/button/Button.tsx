@@ -1,4 +1,4 @@
-import React from "react";
+import React, { HTMLAttributes } from "react";
 import "./button.css";
 
 type ButtonVariant = "primary" | "secondary";
@@ -25,6 +25,11 @@ interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
+
+  /**
+   * <button /> attributes
+   */
+  buttonAttrs?: HTMLAttributes<HTMLButtonElement>;
 }
 
 /**
@@ -35,7 +40,7 @@ export const Button = ({
   size = "medium",
   backgroundColor,
   label,
-  ...props
+  buttonAttrs,
 }: ButtonProps) => {
   const mode =
     variant === "primary"
@@ -53,7 +58,8 @@ export const Button = ({
       type="button"
       className={className}
       style={{ backgroundColor }}
-      {...props}
+      aria-label={label}
+      {...buttonAttrs}
     >
       {label}
     </button>
