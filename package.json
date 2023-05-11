@@ -30,6 +30,9 @@
     ]
   },
   "auto": {
+    "prereleaseBranches": [
+      "next"
+    ],
     "plugins": [
       "npm",
       "released",
