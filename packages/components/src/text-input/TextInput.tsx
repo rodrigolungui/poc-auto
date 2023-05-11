@@ -6,6 +6,7 @@ interface TextInputProps {
   label: string;
   name: string;
   dataTestid?: string;
+  disabled: boolean;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 
@@ -18,6 +19,7 @@ const TextInput = ({
   label,
   name,
   dataTestid,
+  disabled,
   onChange = () => {},
 }: TextInputProps) => {
   return (
@@ -25,7 +27,7 @@ const TextInput = ({
       <label style={{ display: "block" }} htmlFor={name}>
         {label}
       </label>
-      <input name={name} id={id} onChange={onChange} />
+      <input name={name} id={id} disabled={disabled} onChange={onChange} />
     </div>
   );
 };
