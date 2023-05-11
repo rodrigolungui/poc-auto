@@ -39,7 +39,6 @@
       [
         "conventional-commits",
         {
-          "preset": "angular",
           "defaultReleaseType": "patch"
         }
       ]
