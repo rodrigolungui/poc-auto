@@ -58,6 +58,7 @@ export const Button = ({
       type="button"
       className={className}
       style={{ backgroundColor }}
+      aria-label={label}
       {...buttonAttrs}
     >
       {label}
