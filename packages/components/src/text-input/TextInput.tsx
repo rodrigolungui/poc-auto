@@ -5,14 +5,21 @@ interface TextInputProps {
   id: string;
   label: string;
   name: string;
+  dataTestid?: string;
 }
 
 /**
  * Text input component, which includes the label
  */
-const TextInput = ({ className, id, label, name }: TextInputProps) => {
+const TextInput = ({
+  className,
+  id,
+  label,
+  name,
+  dataTestid,
+}: TextInputProps) => {
   return (
-    <div className={className}>
+    <div className={className} data-testid={dataTestid}>
       <label style={{ display: "block" }} htmlFor={name}>
         {label}
       </label>
