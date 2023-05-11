@@ -10,3 +10,4 @@ final/
 .env
 .env.local
 /**/coverage
+.npmrc
