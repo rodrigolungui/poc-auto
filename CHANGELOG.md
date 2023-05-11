@@ -2,6 +2,25 @@
 
 #### 💥 Breaking Change
 
+- `@rodrigolungui/components@2.0.0`
+  - Refactoring Button Component [#14](https://github.com/rodrigolungui/poc-auto/pull/14) ([@rodrigolungui](https://github.com/rodrigolungui))
+  - Refactoring TextInput component [#13](https://github.com/rodrigolungui/poc-auto/pull/13) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### 🚀 Enhancement
+
+- `@rodrigolungui/components@2.0.0`
+  - Adding `inputAttrs` prop to TextInput component [#16](https://github.com/rodrigolungui/poc-auto/pull/16) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
+# (Thu May 11 2023)
+
+#### 💥 Breaking Change
+
 - `@rodrigolungui/components@1.0.0`
   - Refactoring "Name" component [#12](https://github.com/rodrigolungui/poc-auto/pull/12) ([@rodrigolungui](https://github.com/rodrigolungui))
 

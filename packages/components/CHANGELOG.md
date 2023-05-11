@@ -1,3 +1,29 @@
+# v2.0.0 (Thu May 11 2023)
+
+#### 💥 Breaking Change
+
+- Refactoring Button Component [#14](https://github.com/rodrigolungui/poc-auto/pull/14) ([@rodrigolungui](https://github.com/rodrigolungui))
+- refactor(component)!: removing props spreading ([@rodrigolungui](https://github.com/rodrigolungui))
+- Refactoring TextInput component [#13](https://github.com/rodrigolungui/poc-auto/pull/13) ([@rodrigolungui](https://github.com/rodrigolungui))
+- feature(components)!: adding mandatory disabled prop to TextInput ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### 🚀 Enhancement
+
+- Adding `inputAttrs` prop to TextInput component [#16](https://github.com/rodrigolungui/poc-auto/pull/16) ([@rodrigolungui](https://github.com/rodrigolungui))
+- feat(components): adding inputAttrs prop ([@rodrigolungui](https://github.com/rodrigolungui))
+- feat(components): using label as "aria-label" on button ([@rodrigolungui](https://github.com/rodrigolungui))
+- feat(components): adding buttonAttrs prop ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### 🐛 Bug Fix
+
+- feature(components): adding onChange to TextInput ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
 # v1.0.0 (Thu May 11 2023)
 
 #### 💥 Breaking Change
