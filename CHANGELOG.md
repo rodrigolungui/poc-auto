@@ -1,5 +1,22 @@
 # (Thu May 11 2023)
 
+#### 💥 Breaking Change
+
+- `@rodrigolungui/lib-a@1.0.0`
+  - Removing 'sayBye' function [#7](https://github.com/rodrigolungui/poc-auto/pull/7) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### 🐛 Bug Fix
+
+- chore: updating gitignore ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
+# (Thu May 11 2023)
+
 #### 🚀 Enhancement
 
 - `@rodrigolungui/tokens@0.2.0`
