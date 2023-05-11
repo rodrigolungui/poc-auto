@@ -1,3 +1,16 @@
+# v1.0.0 (Thu May 11 2023)
+
+#### 💥 Breaking Change
+
+- Refactoring "Name" component [#12](https://github.com/rodrigolungui/poc-auto/pull/12) ([@rodrigolungui](https://github.com/rodrigolungui))
+- refactor(components)!: removing birthday from Name component ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
 # v0.4.2 (Thu May 11 2023)
 
 #### 🐛 Bug Fix

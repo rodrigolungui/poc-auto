@@ -1,5 +1,18 @@
 # (Thu May 11 2023)
 
+#### 💥 Breaking Change
+
+- `@rodrigolungui/components@1.0.0`
+  - Refactoring "Name" component [#12](https://github.com/rodrigolungui/poc-auto/pull/12) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
+# (Thu May 11 2023)
+
 #### 🐛 Bug Fix
 
 - `@rodrigolungui/components@0.4.2`
