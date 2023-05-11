@@ -11,5 +11,10 @@ module.exports = {
     },
     shadow: {
         small: "rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset"
+    },
+    borderRadius: {
+        small: "2px",
+        medium: "4px",
+        large: "6px"
     }
 }

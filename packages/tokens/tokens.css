@@ -4,4 +4,7 @@
     --color-text-primary: #333;
     --color-text-secondary: #fff;
     --shadow-small: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+    --border-radius-small: 2px;
+    --border-radius-medium: 4px;
+    --border-radius-large: 6px;
 }
