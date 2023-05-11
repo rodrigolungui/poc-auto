@@ -1,3 +1,21 @@
+# (Thu May 11 2023)
+
+#### 🚀 Enhancement
+
+- feature: adding released plugin and release on push [#4](https://github.com/rodrigolungui/poc-auto/pull/4) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### 🐛 Bug Fix
+
+- ci: improving release [#5](https://github.com/rodrigolungui/poc-auto/pull/5) ([@rodrigolungui](https://github.com/rodrigolungui))
+- `@rodrigolungui/components@0.2.0`
+  - Update package.json ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
 # (Tue May 09 2023)
 
 #### 🚀 Enhancement
