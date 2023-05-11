@@ -1,10 +1,14 @@
 import React from "react";
 import "./button.css";
+
+type ButtonVariant = "primary" | "secondary";
+
 interface ButtonProps {
   /**
-   * Is this the principal call to action on the page?
+   * Button's variant. "primary" | "secondary", defaults to "primary"
+   *
    */
-  primary?: boolean;
+  variant?: ButtonVariant;
   /**
    * What background color to use
    */
@@ -27,21 +31,27 @@ interface ButtonProps {
  * Primary UI component for user interaction
  */
 export const Button = ({
-  primary = false,
+  variant = "primary",
   size = "medium",
   backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary
-    ? "storybook-button--primary"
-    : "storybook-button--secondary";
+  const mode =
+    variant === "primary"
+      ? "storybook-button--primary"
+      : "storybook-button--secondary";
+
+  const className = [
+    "storybook-button",
+    `storybook-button--${size}`,
+    mode,
+  ].join(" ");
+
   return (
     <button
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " "
-      )}
+      className={className}
       style={{ backgroundColor }}
       {...props}
     >
