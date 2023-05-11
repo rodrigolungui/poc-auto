@@ -1,3 +1,16 @@
+# v0.4.1 (Thu May 11 2023)
+
+#### 🐛 Bug Fix
+
+- Fixing box behavior [#10](https://github.com/rodrigolungui/poc-auto/pull/10) ([@rodrigolungui](https://github.com/rodrigolungui))
+- fix(components): fixing box behavior ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
 # v0.4.0 (Thu May 11 2023)
 
 #### 🚀 Enhancement
