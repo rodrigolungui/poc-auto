@@ -2,6 +2,19 @@
 
 #### 🐛 Bug Fix
 
+- `@rodrigolungui/components@0.4.2`
+  - refactor(components)!: refactoring Header to accept just h1 [#11](https://github.com/rodrigolungui/poc-auto/pull/11) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
+# (Thu May 11 2023)
+
+#### 🐛 Bug Fix
+
 - `@rodrigolungui/components@0.4.1`
   - Fixing box behavior [#10](https://github.com/rodrigolungui/poc-auto/pull/10) ([@rodrigolungui](https://github.com/rodrigolungui))
 

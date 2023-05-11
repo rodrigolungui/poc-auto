@@ -1,3 +1,16 @@
+# v0.4.2 (Thu May 11 2023)
+
+#### 🐛 Bug Fix
+
+- refactor(components)!: refactoring Header to accept just h1 [#11](https://github.com/rodrigolungui/poc-auto/pull/11) ([@rodrigolungui](https://github.com/rodrigolungui))
+- refactor(components)!: refactoring Header to accept just h1 ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
 # v0.4.1 (Thu May 11 2023)
 
 #### 🐛 Bug Fix
