@@ -1,5 +1,18 @@
 # (Thu May 11 2023)
 
+#### 🚀 Enhancement
+
+- `@rodrigolungui/components@0.4.0`
+  - Adding features to components package [#8](https://github.com/rodrigolungui/poc-auto/pull/8) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
+# (Thu May 11 2023)
+
 #### 💥 Breaking Change
 
 - `@rodrigolungui/lib-a@1.0.0`
