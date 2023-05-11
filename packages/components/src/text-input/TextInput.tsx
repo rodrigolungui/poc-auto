@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from "react";
+import React, { ChangeEvent, HTMLAttributes } from "react";
 
 interface TextInputProps {
   className: string;
@@ -7,6 +7,7 @@ interface TextInputProps {
   name: string;
   dataTestid?: string;
   disabled: boolean;
+  inputAttrs?: HTMLAttributes<HTMLInputElement>;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 
@@ -16,6 +17,7 @@ interface TextInputProps {
 const TextInput = ({
   className,
   id,
+  inputAttrs,
   label,
   name,
   dataTestid,
@@ -27,7 +29,13 @@ const TextInput = ({
       <label style={{ display: "block" }} htmlFor={name}>
         {label}
       </label>
-      <input name={name} id={id} disabled={disabled} onChange={onChange} />
+      <input
+        name={name}
+        id={id}
+        disabled={disabled}
+        onChange={onChange}
+        {...inputAttrs}
+      />
     </div>
   );
 };
