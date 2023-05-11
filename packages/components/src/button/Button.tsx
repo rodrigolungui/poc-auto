@@ -41,7 +41,6 @@ export const Button = ({
   backgroundColor,
   label,
   buttonAttrs,
-  ...props
 }: ButtonProps) => {
   const mode =
     variant === "primary"
@@ -59,7 +58,6 @@ export const Button = ({
       type="button"
       className={className}
       style={{ backgroundColor }}
-      {...props}
       {...buttonAttrs}
     >
       {label}
