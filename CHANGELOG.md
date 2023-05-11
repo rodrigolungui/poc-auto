@@ -2,6 +2,19 @@
 
 #### 🚀 Enhancement
 
+- `@rodrigolungui/tokens@0.2.0`
+  - Adding new tokens for border-radius [#6](https://github.com/rodrigolungui/poc-auto/pull/6) ([@rodrigolungui](https://github.com/rodrigolungui))
+
+#### Authors: 1
+
+- Rodrigo Lungui ([@rodrigolungui](https://github.com/rodrigolungui))
+
+---
+
+# (Thu May 11 2023)
+
+#### 🚀 Enhancement
+
 - feature: adding released plugin and release on push [#4](https://github.com/rodrigolungui/poc-auto/pull/4) ([@rodrigolungui](https://github.com/rodrigolungui))
 
 #### 🐛 Bug Fix
